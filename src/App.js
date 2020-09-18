@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 // import Ref from "./examples/ref";
 // import Memo from "./examples/memo";
-import Callback from "./examples/callback";
+// import Callback from "./examples/callback";
+import Context from "./examples/context";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <header className="App-header">
         {/*<Ref />*/}
         {/*<Memo />*/}
-        <Callback />
+        {/*<Callback />*/}
+        <Context />
       </header>
     </div>
   );
