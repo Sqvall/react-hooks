@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+// import Ref from "./examples/ref";
+// import Memo from "./examples/memo";
+import Callback from "./examples/callback";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/*<Ref />*/}
+        {/*<Memo />*/}
+        <Callback />
       </header>
     </div>
   );
